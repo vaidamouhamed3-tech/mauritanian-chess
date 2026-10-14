@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الشطرنج الموريتاني - Mauritanian Chess</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- مكتبة الشطرنج chess.js للمنطق والتحركات -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>الشطرنج بالحسانية 🇲🇷</h1>
+        <div id="status" class="status-box">أيو شتمر اللعبة راهي ابدات</div>
+    </div>
+
+    <div class="main-container">
+        <!-- رقعة الشطرنج -->
+        <div id="board" class="board"></div>
+
+        <!-- أزرار التحكم واللوحة الجانبية -->
+        <div class="controls">
+            <button id="restartBtn" onclick="resetGame()">العب مرة ثانية</button>
+            <div class="game-info">
+                <h3>حالة اللعبة</h3>
+                <p id="turnInfo">دور: الأبيض</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
