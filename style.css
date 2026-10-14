@@ -1,0 +1,86 @@
+body {
+    font-family: 'Cairo', Tahoma, sans-serif;
+    background-color: #006233; /* الأخضر الموريتاني */
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    color: #FFD700; /* الأصفر الموريتاني */
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.status-box {
+    background-color: #D21034; /* الأحمر الموريتاني */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: rgba(0, 98, 51, 0.85);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+    border: 3px solid #FFD700;
+}
+
+.board {
+    width: 400px;
+    height: 400px;
+    max-width: 90vw;
+    max-height: 90vw;
+}
+
+.controls {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#restartBtn {
+    background-color: #FFD700;
+    color: #006233;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#restartBtn:hover {
+    background-color: #e6c200;
+    transform: scale(1.05);
+}
+
+.game-info {
+    background: #ffffff;
+    color: #006233;
+    padding: 5px 15px;
+    border-radius: 6px;
+    font-weight: bold;
+}
